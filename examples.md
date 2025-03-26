@@ -439,9 +439,7 @@
     return `Hello, ${this.name}!`;
   }
   let person = { name: 'Alice' };
-  console.log(greet.call(person
-
-)); // Output: 'Hello, Alice!'
+  console.log(greet.call(person)); // Output: 'Hello, Alice!'
   ```
 
 - **Function.prototype.apply():**
